@@ -1,0 +1,11 @@
+server:
+  context-path: /
+  port: 8080
+endpoints:
+  shutdown:
+    enabled: false
+    sensitive: false
+management:
+  context-path: /management
+  security:
+    enabled: false
